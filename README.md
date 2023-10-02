@@ -47,45 +47,45 @@ This is the profit that would be made if placing a 100 dollar wager on every pre
 The notebook can be accessed [here](https://github.com/Ben-Gilbert333/Predicting_UFC_Winners/blob/main/predicting_ufc_winners.ipynb) and presentation slides can be found [here](https://github.com/Ben-Gilbert333/Predicting_UFC_Winners/blob/main/presentation.pdf) for a more depth into the project.
 ## Repository Structure
 ```
-|--- Images
-|    |--- final_model_matrix.png
-|    |--- grad_boost_matrix.png
-|    |--- minus_odds.png
-|    |--- minus_odds_white_labels.png
-|    |--- neural_network_matrix.png
-|    |--- plus_odds.png
-|    |--- plus_odds_white_labels.png
-|--- data
-|    |--- UFC 9-23-23.csv
-|    |--- ufc-master.csv
-|--- pickles
-|    |--- forest_grid_best.pkl
-|    |--- forest_grid_best2.pkl
-|    |--- forest_grid_best3.pkl
-|    |--- forest_grid_best4.pkl
-|    |--- forest_grid_best5.pkl
-|    |--- forest_grid_best6.pkl
-|    |--- gradient_boost_grid_best.pkl
-|    |--- gradient_boost_grid_best2.pkl
-|    |--- gradient_boost_grid_best3.pkl
-|    |--- gradient_boost_grid_best4.pkl
-|    |--- gradient_boost_grid_best5.pkl
-|    |--- logreg_grid_best3.pkl
-|    |--- logreg_grid_best4.pkl
-|    |--- mlpc_grid_best.pkl
-|    |--- mlpc_grid_best2.pkl
-|    |--- mlpc_grid_best3.pkl
-|    |--- mlpc_grid_best4.pkl
-|    |--- mlpc_grid_best5.pkl
-|--- scratch_notebooks
-|    |--- odds_charts.ipynb
-|    |--- scratch_notebook.ipynb
-|    |--- scratch_notebook2.ipynb
-|    |--- scratch_notebook3.ipynb
-|    |--- testing_9-23-23_fights.ipynb
-|--- .gitignore
-|--- LICENSE
-|--- README.md
-|--- predicting_ufc_winners.ipynb
-|--- presentation.pdf
+├── Images
+    ├── final_model_matrix.png
+    ├── grad_boost_matrix.png
+    ├── minus_odds.png
+    ├── minus_odds_white_labels.png
+    ├── neural_network_matrix.png
+    ├── plus_odds.png
+    └── plus_odds_white_labels.png
+├── data
+    ├── UFC 9-23-23.csv
+    └── ufc-master.csv
+├── pickles
+    ├── forest_grid_best.pkl
+    ├── forest_grid_best2.pkl
+    ├── forest_grid_best3.pkl
+    ├── forest_grid_best4.pkl
+    ├── forest_grid_best5.pkl
+    ├── forest_grid_best6.pkl
+    ├── gradient_boost_grid_best.pkl
+    ├── gradient_boost_grid_best2.pkl
+    ├── gradient_boost_grid_best3.pkl
+    ├── gradient_boost_grid_best4.pkl
+    ├── gradient_boost_grid_best5.pkl
+    ├── logreg_grid_best3.pkl
+    ├── logreg_grid_best4.pkl
+    ├── mlpc_grid_best.pkl
+    ├── mlpc_grid_best2.pkl
+    ├── mlpc_grid_best3.pkl
+    ├── mlpc_grid_best4.pkl
+    └── mlpc_grid_best5.pkl
+├── scratch_notebooks
+    ├── odds_charts.ipynb
+    ├── scratch_notebook.ipynb
+    ├── scratch_notebook2.ipynb
+    ├── scratch_notebook3.ipynb
+    └── testing_9-23-23_fights.ipynb
+├── .gitignore
+├── LICENSE
+├── README.md
+├── predicting_ufc_winners.ipynb
+└── presentation.pdf
 ```
