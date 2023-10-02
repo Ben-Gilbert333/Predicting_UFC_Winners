@@ -44,7 +44,7 @@ This is the profit that would be made if placing a 100 dollar wager on every pre
 
     With more time I could explore cutting down on the amount of features used in order to combat overfitting.
 ## More Information
-The notebook can be accessed [here](https://github.com/Ben-Gilbert333/Predicting_UFC_Winners/blob/main/predicting_ufc_winners.ipynb) and presentation slides can be found [here](https://github.com/Ben-Gilbert333/Predicting_UFC_Winners/blob/main/presentation.pdf) for a more depth into the project.
+The notebook can be accessed [here](https://github.com/Ben-Gilbert333/Predicting_UFC_Winners/blob/main/predicting_ufc_winners.ipynb) and presentation slides can be found [here](https://github.com/Ben-Gilbert333/Predicting_UFC_Winners/blob/main/presentation.pdf) for a more in depth look into the project.
 ## Repository Structure
 ```
 ├── Images
