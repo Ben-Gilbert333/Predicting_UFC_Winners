@@ -23,7 +23,12 @@ Another important point worth stating clearly was my decision to keep female and
 ## Results
 I chose the stacking classifier as my final model. This used a gradient boosting classifier and a neural network. The neural network was my best model in terms of underfitting/overfitting. It scored about an 82% precision on the training data and 80% on the cross validation. The problem was it very rarely predicted underdogs to win. The gradient boosting classifier predicted underdogs to win often. However, it was overfit with 100% precision on the training data and 48% precision on the cross validation. I used the stacking classifier to try and get the best of both worlds out these two models that were struggling in different ways. The stacking classifier was still overfit with 100% precision on the training data and 65% precision on the cross validation but, it was predicting underdogs to win often. I chose this as my final model because I thought it was the most balanced option.
 ## Conclusion
-My final model had a precision score of 75% on the test data with the default threshold. With the custom threshold the precision score was 48%. Both of these would result in profits of 555 dollars and 170 dollars respectively. This is the profit that would be made if placing a 100 dollar wager on every predicted underdog from the final model. These results seem great but, they were disappointing because the model rarely predicts an underdog to win. 
+My final model had a precision score of 75% on the test data with the default threshold. With the custom threshold the precision score was 48%. 
+### Betting Results on Test Data
+- Default threshold: 555 dollar profit 
+- Custom threshold: 170 dollar profit
+
+This is the profit that would be made if placing a 100 dollar wager on every predicted underdog from the models. These results seem great but, they were disappointing because the model rarely predicts an underdog to win. 
 ### Next Steps
 - Collect Data
 
