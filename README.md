@@ -88,5 +88,6 @@ The notebook can be accessed [here](https://github.com/Ben-Gilbert333/Predicting
 ├── LICENSE
 ├── README.md
 ├── predicting_ufc_winners.ipynb
-└── presentation.pdf
+├── presentation.pdf
+└── requirements.txt
 ```
